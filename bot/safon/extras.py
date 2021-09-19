@@ -49,11 +49,11 @@ try:
                     description="Start Radio Streaming"
                 ),
                 types.BotCommand(
-                    command="stream",
+                    command="izlet",
                     description="Start Video Streaming"
                 ),
                 types.BotCommand(
-                    command="endstream",
+                    command="sonlandir",
                     description="Stop Streaming & Left VC"
                 ),
                 types.BotCommand(
