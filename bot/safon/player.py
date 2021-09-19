@@ -58,7 +58,7 @@ async def stream(client, m: Message):
     elif ' ' in m.text:
         text = m.text.split(' ', 1)
         query = text[1]
-        msg = await m.reply_text("🔄 `Processing ...`")
+        msg = await m.reply_text("🔄 `İşleniyor ...`")
 
         process = FFMPEG_PROCESSES.get(CHAT_ID)
         if process:
