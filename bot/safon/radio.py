@@ -27,7 +27,7 @@ async def radio(client, m: Message):
     text = m.text.split(' ', 1)
     query = text[1]
     input_filename = f'radio-{CHAT_ID}.raw'
-    msg = await m.reply_text("🔄 `Processing ...`")
+    msg = await m.reply_text("🔄 `işleniyor ...`")
 
     vid_call = VIDEO_CALL.get(CHAT_ID)
     if vid_call:
